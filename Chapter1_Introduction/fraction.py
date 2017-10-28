@@ -21,6 +21,12 @@ class Fraction:
 		secondnum = self.den * other.num 
 		return firstnum == secondnum
 
+	def getNum(self):
+		return self.num
+
+	def getDen(self):
+		return self.den
+
 
 
 def gcd(m,n):
@@ -39,3 +45,5 @@ x = Fraction(1,2)
 y = Fraction(2,3)
 print(x+y)
 print(x == y)
+print(x.getNum())
+print(x.getDen())
