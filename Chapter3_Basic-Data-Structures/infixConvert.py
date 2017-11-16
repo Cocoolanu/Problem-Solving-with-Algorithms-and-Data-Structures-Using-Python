@@ -34,7 +34,7 @@ def infixToPostfix(infixexpr):
     return " ".join(postfixList)
 
 print(infixToPostfix("A * B + C * D"))
-#print(infixToPostfix("10 + 3 * 5 / ( 16 - 4)"))
+#print(infixToPostfix("10 + 3 * 5 / ( 16 - 4 )"))
 print(infixToPostfix("5 * 3 ^ ( 4 - 2 )"))
 print(infixToPostfix("( A + B ) * C - ( D - E ) * ( F + G )"))
 
