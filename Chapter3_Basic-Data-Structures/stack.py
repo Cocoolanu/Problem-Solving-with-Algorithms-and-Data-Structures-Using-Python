@@ -30,20 +30,3 @@ def revstring(mystr):
 		newStr += myStack.pop()
 
 	return newStr
-
-'''
-s = Stack()
-print(revstring("1234567890"))
-
-print(s.isEmpty())
-s.push(4)
-s.push('dog')
-print(s.peek())
-s.push(True)
-print(s.size())
-print(s.isEmpty())
-s.push(8.4)
-print(s.pop())
-print(s.pop())
-print(s.size())
-'''
